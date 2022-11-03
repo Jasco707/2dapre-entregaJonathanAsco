@@ -1,0 +1,17 @@
+@import "scss/variables";
+
+.contenedor .footer {
+	background: $colorblanco;
+	font-size:$tamañop;
+	grid-area: footer;
+	padding: 25px;
+	text-align: right;
+	box-shadow: 0px 0px 70px rgba(102, 102, 102, 0.2);
+}
+
+.footer {
+	padding: 2.5rem;
+	background-color: white;
+	text-align: center;
+	margin-top: 3rem;
+}

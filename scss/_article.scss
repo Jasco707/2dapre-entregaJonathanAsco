@@ -1,0 +1,45 @@
+@import "scss/variables";
+
+.contenedor-articulo {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.articulo {
+display: flex;
+flex-direction: column;
+background: #fff;
+}
+
+
+
+.articulo .contenedor-texto {
+padding: 20px;
+width: 50%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 100%;
+}
+
+
+.articulo .titulo {
+font-size: $tamañoh2;
+text-align: center;
+}
+
+.articulo .titulo a {
+font-weight: 400;
+color: #000;
+}
+
+
+.articulo .extracto {
+margin-bottom: 1rem;
+font-size: $tamañop;
+font-weight: 300;
+text-align: center;
+color: #868b8d;
+width: 95%;
+}

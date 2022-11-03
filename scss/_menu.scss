@@ -1,0 +1,29 @@
+@import "scss/variables";
+
+.menu {
+	display: flex;
+	flex-direction: column;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu a {
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	width: 100%;
+	text-align: center;
+	transition: 0.2s ease all;
+	font-size: 16px;
+}
+
+.menu a:hover {
+	background: #000;
+	color: #fff;
+}

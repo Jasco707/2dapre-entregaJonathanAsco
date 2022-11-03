@@ -1,0 +1,14 @@
+.fondo-index {
+	background: rgb(12, 91, 215);
+	background: linear-gradient(90deg, rgba(12, 91, 215, 1) 0%, rgba(109, 166, 196, 1) 54%, rgba(140, 210, 248, 1) 100%);
+}
+.fondo-formulario {
+	background: rgb(238,242,248);
+background: linear-gradient(90deg, rgba(238,242,248,1) 0%, rgba(133,210,255,1) 36%, rgba(0,133,255,0.9051217899269083) 100%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
